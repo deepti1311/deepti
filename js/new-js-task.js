@@ -13,7 +13,7 @@ $("#add").on("click", function () {
   var row_count = product.rows.length;
   if (row_count < 4) {
     $("#disTable").append(
-      `<tr><td><select id="select1"><option value="Item 1">Item 1</option><option value="Item 2">Item 2</option><option value="Item 3">Item 3</option></select></td><td><button type="button" class="rem" id="B1">X</button></td> </tr>`
+      `<tr><td><select id="select1" class="stockCode"><option value="Item 1">Item 1</option><option value="Item 2">Item 2</option><option value="Item 3">Item 3</option></select></td><td><button type="button" class="rem" id="B1">X</button></td> </tr>`
     );
   }
 });
